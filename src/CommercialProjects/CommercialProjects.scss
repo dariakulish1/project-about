@@ -1,0 +1,62 @@
+.commercial-projects {
+    padding: 2rem;
+    text-align: center;
+
+    h1 {
+        color: #333;
+        margin-bottom: 2rem;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+        .project-item {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+
+            h3 {
+                color: #495057;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                color: #6c757d;
+                line-height: 1.6;
+                margin-bottom: 1rem;
+            }
+
+            .project-tech {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                justify-content: center;
+
+                span {
+                    background-color: #007bff;
+                    color: white;
+                    padding: 0.25rem 0.75rem;
+                    border-radius: 15px;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
