@@ -6,8 +6,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    font-family: "Marcellus", serif;
-    background: linear-gradient(-45deg, #fdfcdc 0%, #fedc7d 50%, #ef601e 100%);
+    background: linear-gradient(-45deg, #fdfcdc 0%, #fccc49 50%, #f95204 100%);
     background-size: 400% 400%;
     animation: gradient 15s ease-in-out infinite;
     &::before {
@@ -39,7 +38,6 @@
     }
     h1 {
         color: #0081a7;
-        font-family: "Marcellus", serif;
         font-size: 2.3rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
@@ -48,7 +46,6 @@
     }
     .about-me__info-text {
         color: #222;
-        font-family: "Inter", Arial, sans-serif;
         font-size: 1.13rem;
         line-height: 1.7;
         margin-bottom: 0.5rem;
@@ -62,7 +59,6 @@
         border: none;
         border-radius: 999px;
         font-size: 1.08rem;
-        font-family: "Marcellus", serif;
         font-weight: 600;
         cursor: pointer;
         box-shadow: 0 2px 8px rgba(239, 96, 30, 0.10);
